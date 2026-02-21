@@ -32,4 +32,4 @@ jobs:
 
     - name: Atualizar deployment
       run: |
-        kubectl set image deployment/api-pedidos api-pedidos=esveraldo/api-pedidos:latv${{ github.run_number }}est
+        kubectl set image deployment/api-pedidos api-pedidos=esveraldo/api-pedidos:v${{ github.run_number }}
